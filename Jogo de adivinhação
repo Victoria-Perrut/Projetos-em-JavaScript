@@ -1,0 +1,11 @@
+alert('**bem vindo ao meu jogo de adivinhação :)**');
+alert('O objetivo é adivinhar um número secreto');
+let numeroSecreto = 8;
+let chute = prompt('digite um numero de 1 a 10');
+// se o chute for igual ao numero secreto
+if (chute == numeroSecreto) {
+  alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto}`);
+  
+  } else{
+    alert('poxa! vc errou, o número digitado não é o número secreto :(')
+  }
